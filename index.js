@@ -1,6 +1,9 @@
-// how do I write to an HTML page 🚫
+// edge cases
+// Import lib outputs
+// get intern and engineer section working 
 const inquirer = require('inquirer');
 const generateHtmlPage = require('./generateHtmlPage')
+
 
 // file system 
 const fs = require('fs');
@@ -8,7 +11,7 @@ const fs = require('fs');
 const Choices = require('inquirer/lib/objects/choices');
 
 // array of questions
-const questions = [{
+const questions = [ {
     type: "input",
     name: "Manager_Name",
     message: "What is the Team Manager's name?"
@@ -31,7 +34,7 @@ const questions = [{
 },
 // End of Manager info 
 {
-    type: "list",
+    type: "checkbox",
     name: "add_employee",
     message: "Select employee type",
 
