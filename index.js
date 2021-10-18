@@ -40,8 +40,25 @@ const questions = [{
     ]
 },
 
+{
+type: "Input",
+name: "engineer_name",
+message: "Engineer's Name"
+},
+
 
 ];
+
+// TODO: Create a function to write README file
+function writeToFile(data) {
+    fs.writeFile("output.html", data, (error) => {
+        if (error === true) {
+            console.log(error)
+        }else {
+            console.log("Successful")
+        }
+    } )
+    };
 
 
 // TODO: Create a function to initialize app
