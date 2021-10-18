@@ -15,7 +15,8 @@ To create this you need to work in the nodes modules and require the inquirer pa
 
 ## Usage
 This application was created to give an employer a one stop shop to view teams members. 
-<!-- Demonstration Video: [Watch the Demo](https://watch.screencastify.com/v/2Vcnc44jwvjJCS1W2rbg) -->
+Demonstration Video: [Watch the Demo](https://watch.screencastify.com/v/RmaJBp6uMKvyStdI09sh)
+
 ![VS Image 1](./assets/images/SS1.png)
 ![VS Image 2](./assets/images/SS2.png)
 
